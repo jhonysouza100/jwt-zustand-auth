@@ -1,5 +1,5 @@
 {
-  "name": "jwt-zustand-auth",
+  "name": "jwt-zustand-session",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
