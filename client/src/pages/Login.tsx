@@ -1,11 +1,14 @@
 import { loginRequest, profileRequest } from "../api/auth";
 import { useAuthstore } from "../store/auth";
+import { useNavigate } from 'react-router-dom'
 
 function Login() {
 
   const setToken = useAuthstore( state => state.setToken)
 
   const setProfile = useAuthstore( state => state.setProfile)
+
+  const navigate = useNavigate()
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     
@@ -30,6 +33,9 @@ function Login() {
 
     // se guardan los "datos de usuario" en el store
     setProfile(resProfile.data.profile)
+
+    // navega hacia la ruta protegida de "profile"
+    navigate('/profile')
   }
 
   return (
