@@ -1,4 +1,4 @@
-# Json Web Token & Zustand para la sesión de usuario actual
+# Json Web Token & Zustand para manejar el flujo de autenticacion
 
 ### Monorepo TypeScript
 
