@@ -1,6 +1,6 @@
 # Json Web Token & Zustand para manejar el flujo de autenticacion
 
-### Monorepo TypeScript
+### Monorrepo TypeScript
 
 ## Frontend React + Zustand | Backend Express y JWT
 
