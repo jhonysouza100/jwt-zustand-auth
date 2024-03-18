@@ -22,14 +22,10 @@ function Login() {
       
       <input 
         type="email"
-        name="" 
-        id=""
         placeholder="ejample@gmail.com" />
 
       <input 
         type="password" 
-        name="" 
-        id=""
         placeholder="********" />
 
       <button>Login</button>
